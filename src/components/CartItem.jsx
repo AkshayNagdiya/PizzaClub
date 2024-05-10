@@ -115,7 +115,7 @@ const CartItem = ({ cart }) => {
               </span>
             </li>
             <li className="flex flex-wrap gap-4 sm:text-lg">
-              Total Price <span className="ml-auto">{price}</span>
+              Total Price <span className="ml-auto">{price*qty}</span>
             </li>
             <button
               className="btn btn-sm btn-white bg-red-400 text-light hover:bg-gray-400"
