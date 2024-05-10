@@ -83,7 +83,7 @@ const Navbar = () => {
                 </h4>
               </Link>
 
-              <Link to={"/SpecialM"}>
+              <Link to={"/menu"}>
                 <h4 className="sm:font-bold text-red-400 text-[18px] sm:text-[18px] hover:text-gray-400 dark:text-gray-400 dark:hover:text-gray-500 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600">
                   SPECIAL MENU
                 </h4>
